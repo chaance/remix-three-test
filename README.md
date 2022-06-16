@@ -14,9 +14,9 @@ Digging into console: Uncaught SyntaxError: Identifier 'React' has already been 
 ```
 
 
-On the other hand, running `npm build && npm start` works fine, but why?
+On the other hand, running `npm run build && npm run start` works fine, but why?
 
-Try to compare build/index.js after running `pnpm build && pnpm start` and after running `npm run dev`.
+Try to compare build/index.js after running `npm run build && npm run start` and after running `npm run dev`.
 
 Both outputs seem to be the same (except a sourcemap comment in the dev output).
 
